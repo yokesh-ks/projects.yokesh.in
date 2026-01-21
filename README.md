@@ -1,47 +1,148 @@
-# OpenNext Starter
+# Projects by Yokesh KS
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+A modern, responsive portfolio showcasing my web applications, developer tools, and creative projects. Built with Next.js 15, Tailwind CSS 4, and TypeScript.
 
-## Getting Started
+![Projects Portfolio](https://img.shields.io/badge/Next.js-15-black) ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue) ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC)
 
-Read the documentation at https://opennext.js.org/cloudflare.
+## 🚀 Features
 
-## Develop
+- **Modern Design**: Clean, responsive layout with dark/light mode support
+- **Interactive Cards**: Hover animations, gradient backgrounds, and smooth transitions
+- **Smart Filtering**: Search by title, description, or tags + category filtering
+- **Favicon Integration**: Displays actual project favicons when available
+- **UTM Tracking**: Automatic tracking parameters for analytics attribution
+- **Mobile-First**: Fully responsive design for all screen sizes
 
-Run the Next.js development server:
+## 📋 Projects Showcase
 
+This portfolio features a curated collection of projects including:
+
+- **Developer Tools**: NPM Stats, Domain Explorer, Markdown Live Preview
+- **Web Applications**: HTML Code Editor, Postal Codes lookup
+- **Educational**: React Learning Hub
+- **E-commerce**: Medusa Plugins collection
+- **Entertainment**: Ingenious Stream platform
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Styling**: Tailwind CSS 4
+- **Icons**: Lucide React
+- **Deployment**: Cloudflare Pages (OpenNext)
+- **Language**: TypeScript
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- pnpm (recommended) or npm/yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or similar package manager command
+git clone https://github.com/yokesh-ks/projects.yokesh.in.git
+cd projects.yokesh.in
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-## Preview
-
-Preview the application locally on the Cloudflare runtime:
-
+2. Install dependencies:
 ```bash
-npm run preview
-# or similar package manager command
+pnpm install
 ```
 
-## Deploy
-
-Deploy the application to Cloudflare:
-
+3. Run the development server:
 ```bash
-npm run deploy
-# or similar package manager command
+pnpm dev
 ```
 
-## Learn More
+4. Open [http://localhost:3007](http://localhost:3007) in your browser
 
-To learn more about Next.js, take a look at the following resources:
+## 📁 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+src/
+├── app/
+│   ├── layout.tsx      # Root layout with metadata
+│   └── page.tsx        # Main projects page
+├── components/
+│   └── ProjectCard.tsx # Reusable project card component
+└── data/
+    └── projects.json   # Project data and configuration
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Customization
+
+### Adding New Projects
+
+Edit `src/data/projects.json` to add new projects:
+
+```json
+{
+  "id": "your-project-id",
+  "title": "Your Project Name",
+  "description": "Brief description of your project",
+  "url": "https://your-project.com",
+  "status": "live",
+  "category": "Developer Tools",
+  "tags": ["tag1", "tag2", "tag3"],
+  "icon": "lucide:code",
+  "gradient": "from-blue-500 to-purple-500",
+  "favicon_url": "https://your-project.com/favicon.ico"
+}
+```
+
+### Styling
+
+- Colors and gradients can be customized in the project data
+- Tailwind CSS classes are used throughout for consistent styling
+- Dark mode is automatically supported
+
+## 🚀 Deployment
+
+### Cloudflare Pages (Recommended)
+
+```bash
+# Build for production
+pnpm run build
+
+# Deploy to Cloudflare
+pnpm run deploy
+```
+
+### Other Platforms
+
+The app can be deployed to any platform supporting Next.js:
+
+- Vercel: `vercel --prod`
+- Netlify: `netlify deploy --prod`
+- Any Node.js hosting provider
+
+## 📊 Analytics & Tracking
+
+All external links include UTM parameters for proper analytics attribution:
+- `utm_source=projects.yokesh.in`
+- `utm_medium=website`
+- `ref=projects.yokesh.in`
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/amazing-feature`
+3. Commit your changes: `git commit -m 'Add amazing feature'`
+4. Push to the branch: `git push origin feature/amazing-feature`
+5. Open a Pull Request
+
+## 📄 License
+
+© 2026 Yokesh KS. All rights reserved.
+
+## 🔗 Links
+
+- **Live Site**: [projects.yokesh.in](https://projects.yokesh.in)
+- **Portfolio**: [yokesh.in](https://yokesh.in)
+- **GitHub**: [yokesh-ks](https://github.com/yokesh-ks)
+
+---
+
+Built with ❤️ by [Yokesh KS](https://yokesh.in)
