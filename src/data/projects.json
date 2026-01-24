@@ -1,6 +1,23 @@
 {
   "projects": [
     {
+      "id": "cleanmark",
+      "title": "CleanMark",
+      "description": "Extract noise-free, structured content from any URL. Perfect for AI training, documentation, and content analysis.",
+      "url": "https://cleanmark.ingeniousclan.com/",
+      "status": "live",
+      "category": "Developer Tools",
+      "tags": [
+        "Markdown",
+        "Documentation",
+        "Editor",
+        "Developer Tools"
+      ],
+      "icon": "lucide:pencil",
+      "gradient": "from-blue-500 to-indigo-500",
+      "favicon_url": "https://cleanmark.ingeniousclan.com/favicon.png"
+    },
+    {
       "id": "npm-stats",
       "title": "NPM Stats",
       "description": "A free analytics platform for npm packages providing detailed insights into download metrics, bundle size analysis, dependency visualization, and security scanning.",
@@ -131,22 +148,6 @@
       ],
       "icon": "lucide:code",
       "gradient": "from-orange-500 to-red-500"
-    },
-    {
-      "id": "cleanmark",
-      "title": "CleanMark",
-      "description": "A markdown editor and documentation tool that helps you create clean, well-formatted markdown content with live preview capabilities.",
-      "url": "https://cleanmark.ingeniousclan.com/",
-      "status": "live",
-      "category": "Developer Tools",
-      "tags": [
-        "Markdown",
-        "Documentation",
-        "Editor",
-        "Developer Tools"
-      ],
-      "icon": "lucide:pencil",
-      "gradient": "from-blue-500 to-indigo-500"
     }
   ]
 }
